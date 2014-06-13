@@ -11,49 +11,40 @@
 @implementation SkiModel
 
 
-/*-(id)init
+-(id)init
 {
-    _sidecut = 10;
-    _camber = @"rocker";
-    _skiType = @"early rise";
-    _skiLength = 
+    self = [super init];
     
+    if (self) {
+
+        _sidecut = 10;
+        //_camber = @"rocker";
+        _skiType = @"early rise";
+        _skiLength = 140;
+    }
+    
+    return self;
 }
 
- 
- 
- 
- int height; // cm
- secondQuestion[];
- skiLengths[] = @[@"115",@"130",@"125",@"140",@"",@"",@"",@"",@"",@"",@"",@"",@""];
- skione
- skitwo
- skithree
- 
- 
- 
- 
- if(height <= 137)
- {
- 
- 
- 
++(NSMutableArray*)createSkis:(Skier*)skier
+{
+    NSMutableArray* skiList;
+    
+    if ([skier.terrain isEqualToString:@"Powder"]) {
+        SkiModel *ski1 = [[SkiModel alloc] init];
+        SkiModel *ski2 = [[SkiModel alloc] init];
+        SkiModel *ski3 = [[SkiModel alloc] init];
+        
+        [skiList addObjectsFromArray:@[ski1,ski2,ski3]];
+    }
+         
+    return skiList;
+}
  
  
  
  
- 
- 
- 
- 
- 
- 
- }
- 
- 
- 
- 
- 
+/*
  
  waist width
  

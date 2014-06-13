@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Skier.h"
 
 @interface SkiModel : NSObject
 //sidcut is in meters
