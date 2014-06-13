@@ -22,6 +22,12 @@
 		408B27A71903426D00201011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408B27861903426D00201011 /* UIKit.framework */; };
 		408B27AF1903426D00201011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 408B27AD1903426D00201011 /* InfoPlist.strings */; };
 		408B27B11903426D00201011 /* Select_a_SkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 408B27B01903426D00201011 /* Select_a_SkiTests.m */; };
+		40B52FFA19071961008D1BC8 /* SkiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B52FF919071961008D1BC8 /* SkiModel.m */; };
+		40BCBB5E19240C1200A787AF /* Skier.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCBB5D19240C1200A787AF /* Skier.m */; };
+		40BCBB64192416EA00A787AF /* IBSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCBB63192416EA00A787AF /* IBSCollectionViewController.m */; };
+		40BCBB671924170D00A787AF /* IBSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCBB661924170D00A787AF /* IBSCollectionViewCell.m */; };
+		40BCBB6A192441DB00A787AF /* IBSOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCBB69192441DB00A787AF /* IBSOverViewController.m */; };
+		40BCBB6C1925685B00A787AF /* skis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40BCBB6B1925685B00A787AF /* skis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,17 @@
 		408B27AC1903426D00201011 /* Select-a-SkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Select-a-SkiTests-Info.plist"; sourceTree = "<group>"; };
 		408B27AE1903426D00201011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		408B27B01903426D00201011 /* Select_a_SkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Select_a_SkiTests.m; sourceTree = "<group>"; };
+		40B52FF819071961008D1BC8 /* SkiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiModel.h; sourceTree = "<group>"; };
+		40B52FF919071961008D1BC8 /* SkiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkiModel.m; sourceTree = "<group>"; };
+		40BCBB5C19240C1200A787AF /* Skier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skier.h; sourceTree = "<group>"; };
+		40BCBB5D19240C1200A787AF /* Skier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skier.m; sourceTree = "<group>"; };
+		40BCBB62192416EA00A787AF /* IBSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBSCollectionViewController.h; sourceTree = "<group>"; };
+		40BCBB63192416EA00A787AF /* IBSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBSCollectionViewController.m; sourceTree = "<group>"; };
+		40BCBB651924170D00A787AF /* IBSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBSCollectionViewCell.h; sourceTree = "<group>"; };
+		40BCBB661924170D00A787AF /* IBSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBSCollectionViewCell.m; sourceTree = "<group>"; };
+		40BCBB68192441DB00A787AF /* IBSOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBSOverViewController.h; sourceTree = "<group>"; };
+		40BCBB69192441DB00A787AF /* IBSOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBSOverViewController.m; sourceTree = "<group>"; };
+		40BCBB6B1925685B00A787AF /* skis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +137,16 @@
 				408B27971903426D00201011 /* Main_iPad.storyboard */,
 				408B279A1903426D00201011 /* IBSViewController.h */,
 				408B279B1903426D00201011 /* IBSViewController.m */,
+				40BCBB68192441DB00A787AF /* IBSOverViewController.h */,
+				40BCBB69192441DB00A787AF /* IBSOverViewController.m */,
+				40BCBB62192416EA00A787AF /* IBSCollectionViewController.h */,
+				40BCBB63192416EA00A787AF /* IBSCollectionViewController.m */,
+				40BCBB651924170D00A787AF /* IBSCollectionViewCell.h */,
+				40BCBB661924170D00A787AF /* IBSCollectionViewCell.m */,
+				40B52FF819071961008D1BC8 /* SkiModel.h */,
+				40B52FF919071961008D1BC8 /* SkiModel.m */,
+				40BCBB5C19240C1200A787AF /* Skier.h */,
+				40BCBB5D19240C1200A787AF /* Skier.m */,
 				408B279D1903426D00201011 /* Images.xcassets */,
 				408B27891903426D00201011 /* Supporting Files */,
 			);
@@ -129,6 +156,7 @@
 		408B27891903426D00201011 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40BCBB6B1925685B00A787AF /* skis.jpg */,
 				408B278A1903426D00201011 /* Select-a-Ski-Info.plist */,
 				408B278B1903426D00201011 /* InfoPlist.strings */,
 				408B278E1903426D00201011 /* main.m */,
@@ -233,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408B27991903426D00201011 /* Main_iPad.storyboard in Resources */,
+				40BCBB6C1925685B00A787AF /* skis.jpg in Resources */,
 				408B279E1903426D00201011 /* Images.xcassets in Resources */,
 				408B27961903426D00201011 /* Main_iPhone.storyboard in Resources */,
 				408B278D1903426D00201011 /* InfoPlist.strings in Resources */,
@@ -254,7 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BCBB5E19240C1200A787AF /* Skier.m in Sources */,
+				40BCBB64192416EA00A787AF /* IBSCollectionViewController.m in Sources */,
+				40BCBB671924170D00A787AF /* IBSCollectionViewCell.m in Sources */,
+				40BCBB6A192441DB00A787AF /* IBSOverViewController.m in Sources */,
 				408B278F1903426D00201011 /* main.m in Sources */,
+				40B52FFA19071961008D1BC8 /* SkiModel.m in Sources */,
 				408B27931903426D00201011 /* IBSAppDelegate.m in Sources */,
 				408B279C1903426D00201011 /* IBSViewController.m in Sources */,
 			);
@@ -471,6 +505,7 @@
 				408B27B61903426D00201011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408B27B71903426D00201011 /* Build configuration list for PBXNativeTarget "Select-a-SkiTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +514,7 @@
 				408B27B91903426D00201011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
