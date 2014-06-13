@@ -41,7 +41,7 @@
     placeHolder = [[NSArray alloc]initWithObjects: nil];
     firstQuestion = [[NSArray alloc]initWithObjects:@"Female",@"Male",nil];
     secondQuestion = [[NSArray alloc]initWithObjects:@"4ft 4in", @"4ft 5in", @"4ft 6in",@"4ft 7in",@"4ft 8in",@"4ft 9in",@"4ft 10in",@"4ft 11in",@"5ft",@"5ft 1in",@"5ft 2in",@"5ft 3in",@"5ft 4in",@"5ft 5in",@"5ft 6in",@"5ft 7in",@"5ft 8in",@"5ft 9in",@"5ft 10in",@"5ft 11in",@"6ft",@"6ft 1in",@"6ft 2in", @"6ft 3in", @"6ft 4+in", nil];
-    secondQInches = @[@52, @53, @54, @55, @56, @57,@58, @59, @60, @61, @62, @63, @64, @65, @66, @67, @68, @69, @70, @71, @72, @73, @74];
+    secondQInches = @[@52, @53, @54, @55, @56, @57, @58, @59, @60, @61, @62, @63, @64, @65, @66, @67, @68, @69, @70, @71, @72, @73, @74];
     
     thirdQuestion = [[NSArray alloc]initWithObjects:@"Beginner",@"Intermediate",@"Advanced",@"Expert",nil];
     
