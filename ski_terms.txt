@@ -1,0 +1,25 @@
+//ISAIAH - This is the contents of the file that was on my desktop at school. Is this you we were asking about?
+
+early-rise - Tip Rocker	- Powder, Big Mountain (not for groomed)
+camber			- groomers, All Mountain
+reverse camber		- powder, Park & Pipe, Big Mountain
+flat			- powder, Park & Pipe
+rocker/camber/rocker	- All Mountain, groomers
+rocker/flat/rocker	- All Mountain
+twin-tip		- Park & Pipe
+backcountry		- Big Mountain, powder
+
+
+Terrain:
+Powder					-Early-Rise, reverse camber, flat, backcountry (+1 length)
+All Mountain				-rocker/camber/rocker, rocker/flat/rocker, camber
+Groomers				-camber, rocker/camber/rocker
+Park & Pipe - "Freestyle" - Mogul	-twin-tip, reverse camber, flat
+Big Mountain - "BackCountry"		-early-rise, reverse camber, backcountry (+1 length)
+Carving					-camber, rocker/camber/rocker (narrow waist)
+
+
+
+Duplicates:
+alpine - camber
+reverse camber - negative camber - rocker - early rise
